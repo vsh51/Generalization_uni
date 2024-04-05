@@ -18,7 +18,7 @@ int main()
 	SortSuccession([](int a, int b) {return a > b; }, arr_arr.begin(), n);
 	PrintSuccession(arr_arr.begin(), arr_arr.end());
 
-	cout << "Sort array based container\n";
+	cout << "Sort list based container\n";
 	SortSuccession([](int a, int b) {return a > b; }, lst_arr.begin(), n);
 	PrintSuccession(lst_arr.begin(), lst_arr.end());
 
